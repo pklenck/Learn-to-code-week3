@@ -1,5 +1,4 @@
-//Get users choice
-var userChoice = prompt("Do you choose rock, paper, or scissors?");
+var userChoice = prompt("Do you choose rock, paper, or scissors?");//Get users choice
 //Have the computer make a choice. Value from 0 - 1
 var computerChoice = Math.random(); //Determine if the computer's choice is rock, paper, or scissors
 if (computerChoice<=0.33) {
